@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -46,8 +46,9 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+#Binaries/*
+#Plugins/*/Binaries/*
+Plugins/BlueprintAssist/NodeSizeCache/*
 
 # Builds
 Build/*
@@ -72,3 +73,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Plugins/BlueprintAssist/NodeSizeCache/B02E9F6A49051EF0477BB2802A9ACC03.json
+/Plugins/BlueprintAssist/NodeSizeCache
